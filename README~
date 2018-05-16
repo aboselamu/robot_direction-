@@ -1,0 +1,9 @@
+# direction ditecter code for robot
+
+The direction_pointer is the ros file which determine the directio of the robot
+In the directory direction_pointer/nodes there are 3 nodes 
+
+a_copyof_forblob_Orginal is a python program which used to test the program by using image and it shows the color and the ditected blobs
+
+different_color, Blue_on_the_Top, red and Yello_on_the_Top are the pictures Used 
+to test the program 

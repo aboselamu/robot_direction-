@@ -1,0 +1,15 @@
+<launch>
+    <node pkg="direction_pointer" 
+            type="image_Publisher.py" 
+            name="image_Publisher3" 
+            output="screen"> </node>
+    
+    <node pkg="direction_pointer"
+            type="image_Subscriber.py"
+            name="image_Subscriber" 
+            output="screen"> </node>
+    <node pkg="direction_pointer"
+    		type = "direction_Node.py"
+    		name = "direction_Node"
+    		output = "screen"> </node>
+</launch>
